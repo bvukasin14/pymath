@@ -1,11 +1,9 @@
 import pymath
 
-myspeed = pymath.physics.speed(10, 2)
 myperimeters = pymath.perimeter.square(10)
 myperimeterp = pymath.perimeter.rectangle(10, 5)
 myareas = pymath.area.square(10)
 myareap = pymath.area.rectangle(10, 5)
-print(myspeed)
 print(myperimeters)
 print(myperimeterp)
 print(myareas)
@@ -42,3 +40,8 @@ else:
 
 print(pymath.convert.area("km2", "m2", 10))
 print(pymath.convert.cubic("km3", "m3", 10))
+
+#####
+
+print(pymath.area.circle(5))
+print(pymath.perimeter.circle(5))

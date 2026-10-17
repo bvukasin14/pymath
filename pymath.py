@@ -1,7 +1,4 @@
-class physics():
-    def speed(s, t):
-        v = s / t
-        return v
+PI = 3.141592653589793
 class perimeter():
     def square(a):
         o = 4 * a
@@ -9,6 +6,9 @@ class perimeter():
     def rectangle(a, b):
         o = 2 * a + 2 * b
         return o
+    def circle(r):
+        u = 2 * r * PI
+        return u
 class area():
     def square(a):
         p = a * a
@@ -16,6 +16,9 @@ class area():
     def rectangle(a, b):
         p = a * b
         return p
+    def circle(r):
+        A = (r ** 2) * PI
+        return A
 class convert():
     def size(fromr, tor, a):
         units = {
@@ -116,3 +119,6 @@ class convert():
                 divider = divider * 1000
             a = a / divider
         return a
+def squared(a, b):
+    c = a ** b
+    return c
