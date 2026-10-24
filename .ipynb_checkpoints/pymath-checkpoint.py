@@ -122,3 +122,8 @@ class convert():
 def squared(a, b):
     c = a ** b
     return c
+def abs(x):
+    if x > 0:
+        return x
+    else:
+        return x * (-1)

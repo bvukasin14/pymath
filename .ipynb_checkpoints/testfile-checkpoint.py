@@ -39,9 +39,16 @@ else:
 #####
 
 print(pymath.convert.area("km2", "m2", 10))
-print(pymath.convert.cubic("km3", "m3", 10))
+print(pymath.convert.volume("km3", "m3", 10))
 
 #####
 
 print(pymath.area.circle(5))
 print(pymath.perimeter.circle(5))
+
+###########
+
+print(pymath.abs(12))
+print(pymath.abs(-12))
+print(pymath.abs(0))
+print(pymath.abs(-0))
