@@ -86,7 +86,7 @@ class convert():
                 divider = divider * 100
             a = a / divider
         return a
-    def cubic(fromr, tor, a):
+    def volume(fromr, tor, a):
         units = {
             "1" : "mm3",
             "2" : "cm3",
