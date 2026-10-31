@@ -136,3 +136,8 @@ def is_prime(a):
 			return True
 		else:
 			return False
+def average(numbers):
+	if not numbers:
+		raise ValueError("Numbers cannot be empty")
+	average_sum = sum(numbers) / len (numbers)
+	return f"{average_sum:.2f}"
