@@ -11,7 +11,7 @@ Pymath is made for math projects in Python, and the module is also coded in Pyth
 --------
 Perimeter
 
-  The perimeter class does what it says - calculates perimeter! You just choose what you want - cirle, square, rectangle - and add the values needed.
+  The perimeter class does what it says - calculates perimeter! You just choose what you want - circle, square, rectangle and triangle - and add the values needed.
   
   *Example:*
     
@@ -67,6 +67,31 @@ Abs
   *Output:*
    
     3
+
+Is_prime
+
+  Is_prime is a function which tells you is the number provided prime or not.
+
+  *Example:*
+
+    print(pymath.is_prime(2))
+
+  *Output:*
+
+    True
+
+Average
+
+  This function counts the average on *n* numbers. Output is formatted to two decimals. There must be provided a list of numbers.
+
+  *Example:*
+
+    print(pymath.average([1, 2, 3]))
+
+  *Output:*
+
+    2
+
 
 ------
 Installation
