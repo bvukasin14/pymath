@@ -52,3 +52,19 @@ print(pymath.abs(12))
 print(pymath.abs(-12))
 print(pymath.abs(0))
 print(pymath.abs(-0))
+
+#######
+
+print(pymath.perimeter.triangle(1, 2, 3))
+
+##########
+
+print(pymath.is_prime(2))
+print(pymath.is_prime(5))
+
+##########
+
+print(pymath.average([1, 3, 5]))
+print(pymath.average([]))
+
+#########

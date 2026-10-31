@@ -9,6 +9,9 @@ class perimeter():
     def circle(r):
         u = 2 * r * PI
         return u
+    def triangle(a, b, c):
+    	p = a + b + c
+    	return p
 class area():
     def square(a):
         p = a * a
@@ -126,4 +129,15 @@ def abs(x):
     if x > 0:
         return x
     else:
-        return x * (-1)
+        return x * (-1)	
+def is_prime(a):
+	if a > 0:
+		if a % 2 == 0:
+			return True
+		else:
+			return False
+def average(numbers):
+	if not numbers:
+		raise ValueError("Numbers cannot be empty")
+	average_sum = sum(numbers) / len (numbers)
+	return f"{average_sum:.2f}"
