@@ -52,3 +52,7 @@ print(pymath.abs(12))
 print(pymath.abs(-12))
 print(pymath.abs(0))
 print(pymath.abs(-0))
+
+#######
+
+print(pymath.perimeter.triangle(1, 2, 3))

@@ -9,6 +9,9 @@ class perimeter():
     def circle(r):
         u = 2 * r * PI
         return u
+    def triangle(a, b, c):
+    	p = a + b + c
+    	return p
 class area():
     def square(a):
         p = a * a
