@@ -129,4 +129,10 @@ def abs(x):
     if x > 0:
         return x
     else:
-        return x * (-1)
+        return x * (-1)	
+def is_prime(a):
+	if a > 0:
+		if a % 2 == 0:
+			return True
+		else:
+			return False

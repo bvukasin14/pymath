@@ -56,3 +56,8 @@ print(pymath.abs(-0))
 #######
 
 print(pymath.perimeter.triangle(1, 2, 3))
+
+##########
+
+print(pymath.is_prime(2))
+print(pymath.is_prime(5))
