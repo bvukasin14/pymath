@@ -1,4 +1,5 @@
 PI = 3.141592653589793
+e = 2.718281828459045
 class perimeter():
     def square(a):
         o = 4 * a
@@ -141,3 +142,7 @@ def average(numbers):
 		raise ValueError("Numbers cannot be empty")
 	average_sum = sum(numbers) / len (numbers)
 	return f"{average_sum:.2f}"
+def format(num, format_size):
+	return f"{num:.{format_size}f}"
+def change_symbol(num):
+	return num * (-1)
