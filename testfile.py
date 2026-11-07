@@ -65,6 +65,17 @@ print(pymath.is_prime(5))
 ##########
 
 print(pymath.average([1, 3, 5]))
-print(pymath.average([]))
+#print(pymath.average([]))
 
 #########
+
+print(pymath.format(1.23456789, 4))
+
+#########
+
+print(pymath.e)
+
+#########
+
+print(pymath.change_symbol(6))
+print(pymath.change_symbol(-6))
