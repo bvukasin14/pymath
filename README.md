@@ -92,6 +92,29 @@ Average
 
     2
 
+Format
+
+  Format function formats your float to number of decimals you decide.
+
+  *Example:*
+
+    print(pymath.format(1.2345678, 4)
+
+  *Output:*
+
+    1.2345
+
+Change_symbol
+
+  Change_symbol function does what it says - it changes symbol of your number.
+
+  *Example:*
+
+    print(pymath.change_symbol(6))
+
+  *Output:*
+
+    -6
 
 ------
 Installation
